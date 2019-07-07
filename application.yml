@@ -1,17 +1,16 @@
-spring:
-? profiles:
-??? active:
-??? - dev
+﻿spring:
+  profiles:
+    active:
+    - dev
 ---
 spring:
-? profiles: dev?????#��������
-? application:?
-??? name: microservicecloud-config-atguigu-dev
+  profiles: dev     #开发环境
+  application: 
+    name: microservicecloud-config-atguigu-dev
 ---
 spring:
-? profiles: test?? #���Ի���
-? application:?
-??? name: microservicecloud-config-atguigu-test
-#??�뱣��ΪUTF-8��ʽ
-?
-?
+  profiles: test   #测试环境
+  application: 
+    name: microservicecloud-config-atguigu-test
+#  请保存为UTF-8格式
+ 
