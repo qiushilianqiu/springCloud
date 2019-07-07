@@ -1,7 +1,23 @@
-ï»¿spring:
-? profiles:
-??? active:
-  ??? - dev
+ï»¿#spring:
+#? profiles:
+#??? active:
+#  ??? - dev
+#---
+#spring:
+#? profiles: dev?????#¿ª·¢»·¾³
+#  ? application:?
+#??? name: microservicecloud-config-atguigu-dev
+#---
+#spring:
+#? profiles: test?? #²âÊÔ»·¾³
+#  ? application:?
+#??? name: microservicecloud-config-atguigu-test
+##??Çë±£´æÎªUTF-8¸ñÊ½
+#  ?
+spring:
+  profiles:
+    active: dev
+
 ---
 spring:
 ? profiles: dev
@@ -9,7 +25,6 @@ spring:
 ??? name: springcloud-config-atguigu-dev
 ---
 spring:
-? profiles: test?? 
+? profiles: test??
   ? application: ?
 ??? name: springcloud-config-atguigu-test
-#??Çë±£´æÎªUTF-8¸ñÊ½
